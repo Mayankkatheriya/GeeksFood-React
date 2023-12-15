@@ -2,9 +2,16 @@ import './Hero.css'
 
 function Hero () {
     return (
-        <div className="hero">
-            Hello
-        </div>
+        <section className="hero">
+            <div className="hero-content">
+                <h1>Let us find your <strong>Forever Food.</strong></h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!</p>
+                <div className="hero-btn">
+                    <a href="/" id = "hero-search-btn">Search now</a>
+                    <a href="/">Know more</a>
+                </div>
+            </div>
+        </section>
     )
 }
 

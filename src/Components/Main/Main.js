@@ -4,7 +4,7 @@ import Hero from './Hero';
 function Main () {
     return (
         <div className="main">
-                <Hero />
+            <Hero />
         </div>
     )
 }
