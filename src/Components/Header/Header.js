@@ -19,6 +19,7 @@ function Header () {
                 </div>
                 <div className="nav-btn-container">
                     <button className="nav-btn">Get Started</button>
+                    <i class='bx bx-menu'></i>
                 </div>
             </div>
         </header>

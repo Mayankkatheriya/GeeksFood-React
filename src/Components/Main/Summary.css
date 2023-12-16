@@ -76,3 +76,21 @@
     background-color: transparent;
     color: rgb(79 70 229);
 }
+
+@media screen and (max-width: 761px) {
+    .summary {
+        padding: 4rem 1rem;
+    }
+
+    .summary-content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .summary-text {
+        padding: 1rem;
+    }
+    .summary-text-container span {
+        display: none;
+    }
+}

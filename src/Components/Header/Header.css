@@ -48,8 +48,9 @@
 }
 
 .nav-btn-container{
-    display:
-    flex; gap: 1rem;
+    display:flex; 
+    gap: 1rem;
+    align-items: center;
 }
 .nav-btn {
     background-color: rgb(59, 130, 246);
@@ -65,4 +66,25 @@
 }
 .nav-btn:hover {
     background-color: rgb(29 78 216);
+}
+
+.nav-btn-container i {
+    font-size: 2rem;
+    color: #fff;
+    display: none;
+}
+
+@media screen and (max-width: 761px) {
+    .header {
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 20;
+    }
+    .nav-menu ul {
+        display: none;
+    }
+    .nav-btn-container i {
+        display: flex;
+    }
 }

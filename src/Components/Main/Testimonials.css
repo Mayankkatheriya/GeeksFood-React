@@ -45,3 +45,10 @@
     line-height: 1.25rem;
     font-weight: 500;
 }
+
+@media screen and (max-width: 761px) {
+    .testimonial-container {
+        -webkit-columns: 1;
+        column-count: 1;
+    }
+}

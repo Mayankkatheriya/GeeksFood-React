@@ -9,6 +9,18 @@
     position: relative;
 }
 
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+    opacity: .6;
+    visibility: hidden;
+}
+
 .hero-content {
     position: absolute;
     top: 35%;
@@ -20,6 +32,7 @@
     text-align: center;
     width: 100%;
     max-width: 36rem;
+    z-index: 10;
 }
 .hero-content h1{
     font-size: 3rem;
@@ -36,6 +49,7 @@
 .hero-content p {
     font-size: 1.25rem;
     line-height: 1.625;
+    width: 100%;
     max-width: 32rem;
     margin-top: 1rem;
 }
@@ -66,4 +80,16 @@
 
 #hero-search-btn:hover {
     background-color: rgb(190 18 60);
+}
+
+@media screen and (max-width: 761px) {
+    .hero-overlay {
+        visibility: visible;
+    }
+
+    .hero-content {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
