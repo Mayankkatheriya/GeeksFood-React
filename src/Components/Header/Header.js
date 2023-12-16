@@ -2,7 +2,7 @@ import './Header.css'
 import logo from '../Assets/logo.svg'
 function Header () {
     return (
-        <div className="header">
+        <header className="header">
             <div className="nav">
                 <a href = "/" className="nav-logo">
                     <img src={logo} alt="Logo" />
@@ -21,7 +21,7 @@ function Header () {
                     <button className="nav-btn">Get Started</button>
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 
