@@ -20,7 +20,7 @@ const Testimonials = () => {
                             <div className="testimony">
                                 <blockquote>{data}</blockquote>
                                 <div className="user-data">
-                                    <img src="{image}" alt="" />
+                                    <img src={image} alt="" />
                                     <div className="user-dels">
                                         <p>Gladis Lennon</p>
                                         <p>Head of SEO</p>
